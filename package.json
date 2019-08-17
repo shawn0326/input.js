@@ -1,0 +1,24 @@
+{
+  "name": "input.js",
+  "version": "1.0.0",
+  "description": "Unity style Input Manager for JavaScript.",
+  "main": "build/input.js",
+  "module": "build/input.module.js",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "input",
+    "unity"
+  ],
+  "author": "shawn0326",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "rollup": "^1.19.4",
+    "rollup-plugin-babel": "^4.3.3"
+  },
+  "dependencies": {}
+}
